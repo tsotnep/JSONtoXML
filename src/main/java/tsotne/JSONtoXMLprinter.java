@@ -1,5 +1,7 @@
 package tsotne;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*;
 
 /**
@@ -8,6 +10,10 @@ import java.util.*;
 public class JSONtoXMLprinter extends JSONtoXMLBaseListener {
     ArrayList<Map<Integer, String>> row = new ArrayList<Map<Integer, String>>();
     int i = 0;
+    FileWriter writer;
+    public JSONtoXMLprinter() throws IOException{
+        writer = new FileWriter("output.xml");
+    }
 
     @Override
     public void enterFile(JSONtoXMLParser.FileContext ctx) {
@@ -30,7 +36,11 @@ public class JSONtoXMLprinter extends JSONtoXMLBaseListener {
                 //print tab
                 while (mKey != 0 && mKey != 100) {
                     mKey--;
-                    System.out.print('\t');
+                    try {
+                        writer.append('\t');
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                 }
 
                 String mStr = k.get(mKeyOriginal).toString();
@@ -38,10 +48,20 @@ public class JSONtoXMLprinter extends JSONtoXMLBaseListener {
 
                 //if it's not value, add XML tags
                 mStr = (mKeyOriginal < 100) ? '<' + mStr + '>' : mStr;
-                System.out.println(mStr);
+                try {
+                    writer.append(mStr + '\n');
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
             }
+
         }
-//        System.out.println("</books>");
+        try {
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
