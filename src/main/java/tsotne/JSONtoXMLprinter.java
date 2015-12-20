@@ -7,98 +7,75 @@ import java.util.*;
  */
 public class JSONtoXMLprinter extends JSONtoXMLBaseListener {
     ArrayList<Map<Integer, String>> row = new ArrayList<Map<Integer, String>>();
-    int i=0;
+    int i = 0;
 
     @Override
     public void enterFile(JSONtoXMLParser.FileContext ctx) {
-        HashMap<Integer, String> m = new HashMap<Integer, String> ();
-        m.put(i++, "file");
+        HashMap<Integer, String> m = new HashMap<Integer, String>();
+        m.put(i++, "books");
         row.add(m);
-        super.enterFile(ctx);
+
     }
 
     @Override
     public void exitFile(JSONtoXMLParser.FileContext ctx) {
-        HashMap<Integer, String> m = new HashMap<Integer, String> ();
-        m.put(--i, "/file");
+        HashMap<Integer, String> m = new HashMap<Integer, String>();
+        m.put(--i, "/books");
         row.add(m);
-
-        for(Map<Integer, String> k : row){
+        for (Map<Integer, String> k : row) {
             Iterator iterator = k.keySet().iterator();
-            while(iterator.hasNext()){
-                int mKey = (Integer) iterator.next();
-                String mStr = '<' + k.get(mKey) + '>';
-                while (mKey != 0) {
+            while (iterator.hasNext()) {
+                int mKeyOriginal = (Integer) iterator.next();
+                int mKey = mKeyOriginal;
+                //print tab
+                while (mKey != 0 && mKey != 100) {
                     mKey--;
                     System.out.print('\t');
                 }
+
+                String mStr = k.get(mKeyOriginal).toString();
+                mStr = mStr.replaceAll("\"", "");
+
+                //if it's not value, add XML tags
+                mStr = (mKeyOriginal < 100) ? '<' + mStr + '>' : mStr;
                 System.out.println(mStr);
             }
         }
-        super.exitFile(ctx);
-    }
-
-    @Override
-    public void enterObject(JSONtoXMLParser.ObjectContext ctx) {
-        HashMap<Integer, String> m = new HashMap<Integer, String> ();
-        m.put(i++, "object");
-        row.add(m);
-        super.enterObject(ctx);
-    }
-
-    @Override
-    public void exitObject(JSONtoXMLParser.ObjectContext ctx) {
-        HashMap<Integer, String> m = new HashMap<Integer, String> ();
-        m.put(--i, "/object");
-        row.add(m);
-        super.exitObject(ctx);
+//        System.out.println("</books>");
     }
 
     @Override
     public void enterProperty(JSONtoXMLParser.PropertyContext ctx) {
-        HashMap<Integer, String> m = new HashMap<Integer, String> ();
-        m.put(i++, "property");
-        row.add(m);
-        super.enterProperty(ctx);
-    }
 
-    @Override
-    public void exitProperty(JSONtoXMLParser.PropertyContext ctx) {
-        HashMap<Integer, String> m = new HashMap<Integer, String> ();
-        m.put(--i, "/property");
-        row.add(m);
-        super.exitProperty(ctx);
-    }
+        if (ctx.value().getChild(0) instanceof JSONtoXMLParser.ArrayContext
+                || ctx.value().getChild(0) instanceof JSONtoXMLParser.ObjectContext){
+            return;
+        }
 
-    @Override
-    public void enterKey(JSONtoXMLParser.KeyContext ctx) {
-        HashMap<Integer, String> m = new HashMap<Integer, String> ();
-        m.put(i++, "key");
-        row.add(m);
-        super.enterKey(ctx);
-    }
+        //starting
+        HashMap<Integer, String> m1 = new HashMap<Integer, String>();
+        m1.put(i++, "book");
+        row.add(m1);
 
-    @Override
-    public void exitKey(JSONtoXMLParser.KeyContext ctx) {
-        HashMap<Integer, String> m = new HashMap<Integer, String> ();
-        m.put(--i, "/key");
-        row.add(m);
-        super.exitKey(ctx);
-    }
+        //opening XML
+        HashMap<Integer, String> m2 = new HashMap<Integer, String>();
+        m2.put(i++, ctx.getChild(0).getChild(0).getText());
+        row.add(m2);
 
-    @Override
-    public void enterValue(JSONtoXMLParser.ValueContext ctx) {
-        HashMap<Integer, String> m = new HashMap<Integer, String> ();
-        m.put(++i, "value");
-        row.add(m);
-        super.enterValue(ctx);
-    }
+        //value
+        HashMap<Integer, String> m3 = new HashMap<Integer, String>();
+        m3.put(100 + i, ctx.getChild(2).getChild(0).getText());
+        row.add(m3);
 
-    @Override
-    public void exitValue(JSONtoXMLParser.ValueContext ctx) {
-        HashMap<Integer, String> m = new HashMap<Integer, String> ();
-        m.put(--i, "/value");
-        row.add(m);
-        super.exitValue(ctx);
+        //closing XML
+        HashMap<Integer, String> m4 = new HashMap<Integer, String>();
+        m4.put(--i, "/" + ctx.getChild(0).getChild(0).getText());
+        row.add(m4);
+
+        //ending
+        HashMap<Integer, String> m5 = new HashMap<Integer, String>();
+        m5.put(--i, "/book");
+        row.add(m5);
+
     }
 }

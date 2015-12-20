@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a21f90b3-4acd-4d25-a2c7-892c6095ff8e" name="Default" comment="" />
+    <list default="true" id="a21f90b3-4acd-4d25-a2c7-892c6095ff8e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/JSONtoXML-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/JSONtoXML-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLBaseListener.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLBaseListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLBaseVisitor.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLBaseVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLListener.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$BoolContext.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$BoolContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$DoubleeContext.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$DoubleeContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$FileContext.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$FileContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$InttContext.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$InttContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$KeyContext.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$KeyContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$NumberContext.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$NumberContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$ObjectContext.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$ObjectContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$PropertyContext.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$PropertyContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$StringContext.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$StringContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$ValueContext.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser$ValueContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLVisitor.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLprinter.class" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXMLprinter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/antlr4/tsotne/JSONtoXML.g4" afterPath="$PROJECT_DIR$/src/main/antlr4/tsotne/JSONtoXML.g4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXML.g4" afterPath="$PROJECT_DIR$/target/classes/tsotne/JSONtoXML.g4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLBaseListener.java" afterPath="$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLBaseListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLBaseVisitor.java" afterPath="$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLBaseVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLListener.java" afterPath="$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLParser.java" afterPath="$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLVisitor.java" afterPath="$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tsotne/JSONtoXMLprinter.java" afterPath="$PROJECT_DIR$/src/main/java/tsotne/JSONtoXMLprinter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/input.json" afterPath="$PROJECT_DIR$/src/test/java/input.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="JSONtoXML.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/antlr4/tsotne/JSONtoXML.g4">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -37,8 +67,8 @@
       <file leaf-file-name="input.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/input.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0">
-              <caret line="32" column="3" selection-start-line="1" selection-start-column="2" selection-end-line="32" selection-end-column="3" />
+            <state vertical-scroll-proportion="-4.0">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -48,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/tsotne/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,31 +89,18 @@
       <file leaf-file-name="JSONtoXMLprinter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tsotne/JSONtoXMLprinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47741935">
-              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.45454547">
+              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
               <folding>
-                <element signature="e#197#219#0" expanded="true" />
-                <element signature="e#360#377#0" expanded="true" />
-                <element signature="e#589#606#0" expanded="true" />
-                <element signature="e#1262#1279#0" expanded="true" />
-                <element signature="e#1499#1516#0" expanded="true" />
+                <element signature="docComment;class#JSONtoXMLprinter#0" expanded="false" />
+                <element signature="e#362#379#0" expanded="true" />
+                <element signature="e#562#579#0" expanded="true" />
                 <element signature="e#1741#1758#0" expanded="true" />
-                <element signature="e#1986#2003#0" expanded="true" />
-                <element signature="e#2222#2239#0" expanded="true" />
-                <element signature="e#2447#2464#0" expanded="true" />
-                <element signature="e#2677#2694#0" expanded="true" />
-                <element signature="e#2910#2927#0" expanded="true" />
+                <element signature="e#1884#1901#0" expanded="true" />
+                <element signature="e#2052#2069#0" expanded="true" />
+                <element signature="e#2230#2247#0" expanded="true" />
+                <element signature="e#2405#2422#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSONtoXMLParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="205" column="24" selection-start-line="205" selection-start-column="24" selection-end-line="205" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -96,6 +113,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -110,8 +130,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLParser.java" />
         <option value="$PROJECT_DIR$/src/main/antlr4/tsotne/JSONtoXML.g4" />
-        <option value="$PROJECT_DIR$/src/test/java/input.json" />
         <option value="$PROJECT_DIR$/src/main/java/tsotne/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/input.json" />
         <option value="$PROJECT_DIR$/src/main/java/tsotne/JSONtoXMLprinter.java" />
       </list>
     </option>
@@ -155,7 +175,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1018" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -316,11 +336,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSONtoXML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSONtoXML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antlr4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tsotne" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -600,6 +646,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -624,43 +676,53 @@
       <created>1450611287392</created>
       <option name="number" value="Default" />
       <updated>1450611287392</updated>
-      <workItem from="1450611289803" duration="12826000" />
+      <workItem from="1450611289803" duration="13800000" />
+      <workItem from="1450625344553" duration="6759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12826000" />
+    <option name="totallyTimeSpent" value="20559000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="28" width="1920" height="1018" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2274326" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49589685" sideWeight="0.50213677" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23444612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23563892" sideWeight="0.49786323" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.321047" sideWeight="0.49786323" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28722158" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946581" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16346154" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49589685" sideWeight="0.49786323" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976552" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -672,7 +734,17 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tsotne/JSONtoXMLprinter.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -680,6 +752,60 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/antlr4/tsotne/JSONtoXML.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/input.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tsotne/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tsotne/JSONtoXMLprinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#JSONtoXMLprinter#0" expanded="false" />
+            <element signature="e#362#379#0" expanded="true" />
+            <element signature="e#562#579#0" expanded="true" />
+            <element signature="e#1741#1758#0" expanded="true" />
+            <element signature="e#1884#1901#0" expanded="true" />
+            <element signature="e#2052#2069#0" expanded="true" />
+            <element signature="e#2230#2247#0" expanded="true" />
+            <element signature="e#2405#2422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="259" column="64" selection-start-line="259" selection-start-column="64" selection-end-line="259" selection-end-column="64" />
+          <folding>
+            <element signature="initializer##0;class#JSONtoXMLParser#0" expanded="false" />
+            <element signature="initializer##2;class#JSONtoXMLParser#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://MAVEN/tsotnep:JSONtoXML:1.0-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -691,9 +817,10 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="56.5" y="16.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="57.0" y="17.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
@@ -710,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4950884">
           <caret line="19" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,27 +848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLBaseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4/4.5.1/antlr4-4.5.1.jar!/org/antlr/v4/runtime/tree/RuleNode.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21218075">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4/4.5.1/antlr4-4.5.1.jar!/org/antlr/v4/runtime/RuleContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21218075">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,30 +859,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21218075">
           <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4/4.5.1/antlr4-4.5.1.jar!/org/antlr/v4/runtime/RuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3455696">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLBaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29354447">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/antlr4/tsotne/JSONtoXML.g4">
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.7856273">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLParser.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4/4.5.1/antlr4-4.5.1.jar!/org/antlr/v4/runtime/tree/ParseTreeWalker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="205" column="24" selection-start-line="205" selection-start-column="24" selection-end-line="205" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/input.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0">
-          <caret line="32" column="3" selection-start-line="1" selection-start-column="2" selection-end-line="32" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.33184856">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -781,37 +896,53 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/tsotne/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/tsotne/JSONtoXMLParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
-          <caret line="324" column="11" selection-start-line="324" selection-start-column="11" selection-end-line="324" selection-end-column="11" />
+          <caret line="297" column="24" selection-start-line="297" selection-start-column="24" selection-end-line="297" selection-end-column="24" />
+          <folding>
+            <element signature="initializer##0;class#JSONtoXMLParser#0" expanded="false" />
+            <element signature="initializer##2;class#JSONtoXMLParser#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/antlr4/tsotne/JSONtoXML.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/input.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tsotne/JSONtoXMLprinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47741935">
-          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.45454547">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
           <folding>
-            <element signature="e#197#219#0" expanded="true" />
-            <element signature="e#360#377#0" expanded="true" />
-            <element signature="e#589#606#0" expanded="true" />
-            <element signature="e#1262#1279#0" expanded="true" />
-            <element signature="e#1499#1516#0" expanded="true" />
+            <element signature="docComment;class#JSONtoXMLprinter#0" expanded="false" />
+            <element signature="e#362#379#0" expanded="true" />
+            <element signature="e#562#579#0" expanded="true" />
             <element signature="e#1741#1758#0" expanded="true" />
-            <element signature="e#1986#2003#0" expanded="true" />
-            <element signature="e#2222#2239#0" expanded="true" />
-            <element signature="e#2447#2464#0" expanded="true" />
-            <element signature="e#2677#2694#0" expanded="true" />
-            <element signature="e#2910#2927#0" expanded="true" />
+            <element signature="e#1884#1901#0" expanded="true" />
+            <element signature="e#2052#2069#0" expanded="true" />
+            <element signature="e#2230#2247#0" expanded="true" />
+            <element signature="e#2405#2422#0" expanded="true" />
           </folding>
         </state>
       </provider>

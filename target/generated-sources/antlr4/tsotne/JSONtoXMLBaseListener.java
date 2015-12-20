@@ -76,6 +76,18 @@ public class JSONtoXMLBaseListener implements JSONtoXMLListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterArray(JSONtoXMLParser.ArrayContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitArray(JSONtoXMLParser.ArrayContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterString(JSONtoXMLParser.StringContext ctx) { }
 	/**
 	 * {@inheritDoc}

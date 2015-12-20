@@ -41,6 +41,12 @@ public interface JSONtoXMLVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitValue(JSONtoXMLParser.ValueContext ctx);
 	/**
+	 * Visit a parse tree produced by {@link JSONtoXMLParser#array}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitArray(JSONtoXMLParser.ArrayContext ctx);
+	/**
 	 * Visit a parse tree produced by {@link JSONtoXMLParser#string}.
 	 * @param ctx the parse tree
 	 * @return the visitor result

@@ -2,6 +2,8 @@ grammar JSONtoXML;
 
 file    :   object EOF;
 
+array   : '[' (object (','object)*)? ']';
+
 object  :   '{' property  (',' property)* '}';
 
 property:   key ':' value;
@@ -12,7 +14,7 @@ value   :   number
         |   bool
         |   string
         |   object
-        |   '[' (object (','object)*)? ']'
+        |   array
         |   NULL
         ;
 

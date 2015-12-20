@@ -1,4 +1,5 @@
 tsotne/JSONtoXMLParser$InttContext.class
+tsotne/JSONtoXMLParser$ArrayContext.class
 tsotne/JSONtoXMLBaseVisitor.class
 tsotne/Main.class
 tsotne/JSONtoXMLParser$FileContext.class
