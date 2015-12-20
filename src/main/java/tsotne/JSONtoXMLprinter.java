@@ -65,6 +65,27 @@ public class JSONtoXMLprinter extends JSONtoXMLBaseListener {
     }
 
     @Override
+    public void enterObject(JSONtoXMLParser.ObjectContext ctx) {
+        //starting
+        HashMap<Integer, String> m1 = new HashMap<Integer, String>();
+        m1.put(i++, "book");
+        row.add(m1);
+
+        super.enterObject(ctx);
+    }
+
+    @Override
+    public void exitObject(JSONtoXMLParser.ObjectContext ctx) {
+        //        //ending
+        HashMap<Integer, String> m5 = new HashMap<Integer, String>();
+        m5.put(--i, "/book");
+        row.add(m5);
+        super.exitObject(ctx);
+    }
+
+
+
+    @Override
     public void enterProperty(JSONtoXMLParser.PropertyContext ctx) {
 
         if (ctx.value().getChild(0) instanceof JSONtoXMLParser.ArrayContext
@@ -72,10 +93,6 @@ public class JSONtoXMLprinter extends JSONtoXMLBaseListener {
             return;
         }
 
-        //starting
-        HashMap<Integer, String> m1 = new HashMap<Integer, String>();
-        m1.put(i++, "book");
-        row.add(m1);
 
         //opening XML
         HashMap<Integer, String> m2 = new HashMap<Integer, String>();
@@ -92,10 +109,7 @@ public class JSONtoXMLprinter extends JSONtoXMLBaseListener {
         m4.put(--i, "/" + ctx.getChild(0).getChild(0).getText());
         row.add(m4);
 
-        //ending
-        HashMap<Integer, String> m5 = new HashMap<Integer, String>();
-        m5.put(--i, "/book");
-        row.add(m5);
+
 
     }
 }
